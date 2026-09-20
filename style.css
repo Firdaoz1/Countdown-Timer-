@@ -1,0 +1,65 @@
+body{
+  background-color: #0B1120;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.conteiner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.all{
+  text-align: center;
+  background-color: rgb(225, 225, 225, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.timer {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.start {
+  background-color: green;
+}
+
+.start:hover {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: white;
+  transition: background-color 300, color 300;
+}
+
+.pause {
+  background-color: orange;
+}
+
+.pause:hover {
+  background-color: rgba(255, 165, 0, 0.2);
+  color: white;
+  transition: background-color 300, color 300;
+}
+
+.reset {
+  background-color: red;
+}
+
+.reset:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: white;
+  transition: background-color 300, color 300;
+}
